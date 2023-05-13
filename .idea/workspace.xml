@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-project-frontend/src/views/IndexView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/assets/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/assets/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/HomeView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -79,6 +65,7 @@
     <property name="project.structure.side.proportion" value="0.16891891" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="ts.external.directory.path" value="D:\Learning\javalast\IntelliJ IDEA 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Spring Boot.StudyProjectBackendApplication">
@@ -150,7 +137,8 @@
       <workItem from="1683944314143" duration="1036000" />
       <workItem from="1683945362788" duration="620000" />
       <workItem from="1683946007388" duration="3106000" />
-      <workItem from="1683957054786" duration="1238000" />
+      <workItem from="1683957054786" duration="2701000" />
+      <workItem from="1683959818944" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
@@ -173,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683896398393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="登录页面编写">
+      <created>1683958439859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683958439859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +190,8 @@
     <MESSAGE value="创建项目" />
     <MESSAGE value="配置登录验证接口返回JSON数据" />
     <MESSAGE value="数据库用户信息校验" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库用户信息校验" />
+    <MESSAGE value="登录页面编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录页面编写" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
