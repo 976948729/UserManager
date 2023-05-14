@@ -9,8 +9,10 @@
       <div style="margin-top: 10px">在这里你可以学习如何使用java，如何搭建网站，并且与Java之父密切交流</div>
       <div style="margin-top: 5px">在这里你可以同性交友，因为都是男的，没有学Java的女生。</div>
     </div>
-    <div style="width: 300px;background-color: white">
-      <router-view/>
+    <div style="width: 400px;background-color: white">
+      <transition name="el-fade-in-linear">
+        <router-view/>
+      </transition>
     </div>
   </div>
 </template>

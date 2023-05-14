@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="">
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="登录页面编写">
+      <change afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -64,7 +67,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16891891" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="ts.external.directory.path" value="D:\Learning\javalast\IntelliJ IDEA 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -107,10 +110,14 @@
       <list>
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\fenghelong\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="" />
@@ -140,6 +147,8 @@
       <workItem from="1683946007388" duration="3106000" />
       <workItem from="1683957054786" duration="2701000" />
       <workItem from="1683959818944" duration="1669000" />
+      <workItem from="1683987318537" duration="209000" />
+      <workItem from="1684029720690" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
