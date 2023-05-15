@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="邮件验证码发送实现">
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册功能完整后端实现-遇到的bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/AuthorizeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/AuthorizeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
@@ -222,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684147652663</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="注册功能完整后端实现-遇到的bug">
+      <created>1684158138970</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684158138970</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +254,8 @@
     <MESSAGE value="注册页面参数校验-2(前端检验完整表单）" />
     <MESSAGE value="注册相关接口编写" />
     <MESSAGE value="邮件验证码发送实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="邮件验证码发送实现" />
+    <MESSAGE value="注册功能完整后端实现-遇到的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册功能完整后端实现-遇到的bug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
