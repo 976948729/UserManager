@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册页面参数校验-2(前端检验完整表单）">
-      <change afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" afterDir="false" />
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册相关接口编写">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/AuthorizeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/AuthorizeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootMail" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -154,7 +155,7 @@
       <workItem from="1684060877202" duration="610000" />
       <workItem from="1684111168888" duration="2571000" />
       <workItem from="1684113796298" duration="60000" />
-      <workItem from="1684128362014" duration="5349000" />
+      <workItem from="1684128362014" duration="12056000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
@@ -205,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684133710670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="注册相关接口编写">
+      <created>1684136263038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684136263038</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +239,8 @@
     <MESSAGE value="注册页面参数校验" />
     <MESSAGE value="注册页面参数校验-2" />
     <MESSAGE value="注册页面参数校验-2(前端检验完整表单）" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册页面参数校验-2(前端检验完整表单）" />
+    <MESSAGE value="注册相关接口编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册相关接口编写" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
