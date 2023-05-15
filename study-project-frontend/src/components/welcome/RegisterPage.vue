@@ -5,7 +5,7 @@
       <div style="font-size: 14px;color: grey">欢迎注册我们的学习平台，请在下方填写相关信息</div>
     </div>
     <div style="margin-top: 50px">
-      <el-form :model="form" :rules="rules">
+      <el-form :model="form" :rules="rules" @validate="onValidate">
         <el-form-item prop="username">
           <el-input v-model="form.username" type="text" placeholder="用户名">
             <template #prefix>
@@ -27,7 +27,7 @@
             </template>
           </el-input>
         </el-form-item>
-        <el-form-item>
+        <el-form-item prop="email">
           <el-input v-model="form.email" type="email" placeholder="电子邮件地址" >
             <template #prefix>
               <el-icon><Message /></el-icon>
@@ -44,7 +44,7 @@
               </el-input>
             </el-col>
             <el-col :span="5">
-              <el-button type="success">获取验证码</el-button>
+              <el-button type="success" :disabled="!isEmailValid">获取验证码</el-button>
             </el-col>
           </el-row>
         </el-form-item>
@@ -63,7 +63,7 @@
 <script setup>
 import {User, Lock, Message, EditPen} from '@element-plus/icons-vue'
 import router from "@/router";
-import {reactive} from "vue";
+import {reactive, ref} from "vue";
 
 const form = reactive( {
   username: '',
@@ -103,7 +103,18 @@ const rules = {
   ],
   password_repeat: [
     {validator: validatePassword, trigger: ['blur','change']},
+  ],
+  email: [
+    { required: true, message: '请输入邮件地址', trigger: 'blur'},
+    { type: 'email', message: '请输入合法的电子邮件地址', trigger: ['blur', 'change']}
   ]
+}
+
+const isEmailValid = ref(false)
+
+const onValidate = (prop, isValid) => {
+  if (prop === 'email')
+    isEmailValid.value = isValid
 }
 </script>
 

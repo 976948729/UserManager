@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册页面编写">
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册页面参数校验">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +148,8 @@
       <workItem from="1684029720690" duration="3904000" />
       <workItem from="1684060877202" duration="610000" />
       <workItem from="1684111168888" duration="2571000" />
+      <workItem from="1684113796298" duration="60000" />
+      <workItem from="1684128362014" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683958439859</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="注册页面参数校验">
+      <created>1684113848374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684113848374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +209,8 @@
     <MESSAGE value="配置登录验证接口返回JSON数据" />
     <MESSAGE value="数据库用户信息校验" />
     <MESSAGE value="登录页面编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录页面编写" />
+    <MESSAGE value="注册页面参数校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册页面参数校验" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
