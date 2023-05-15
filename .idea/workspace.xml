@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="登录页面编写">
-      <change afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册页面编写">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/views/WelcomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +147,8 @@
       <workItem from="1683959818944" duration="1669000" />
       <workItem from="1683987318537" duration="209000" />
       <workItem from="1684029720690" duration="3904000" />
+      <workItem from="1684060877202" duration="610000" />
+      <workItem from="1684111168888" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
