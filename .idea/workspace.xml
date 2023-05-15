@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="注册相关接口编写">
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="邮件验证码发送实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/AuthorizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/AuthorizeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/AuthorizeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="test3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +72,9 @@
     <property name="ts.external.directory.path" value="D:\Learning\javalast\IntelliJ IDEA 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager" selected="Spring Boot.StudyProjectBackendApplication">
     <configuration name="StudyProjectBackendApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study-project-backend" />
@@ -111,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudyProjectBackendApplicationTests.contextLoads" />
@@ -155,7 +157,7 @@
       <workItem from="1684060877202" duration="610000" />
       <workItem from="1684111168888" duration="2571000" />
       <workItem from="1684113796298" duration="60000" />
-      <workItem from="1684128362014" duration="12056000" />
+      <workItem from="1684128362014" duration="21031000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
@@ -213,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684136263038</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="邮件验证码发送实现">
+      <created>1684147652663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684147652663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +249,8 @@
     <MESSAGE value="注册页面参数校验-2" />
     <MESSAGE value="注册页面参数校验-2(前端检验完整表单）" />
     <MESSAGE value="注册相关接口编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册相关接口编写" />
+    <MESSAGE value="邮件验证码发送实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="邮件验证码发送实现" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
