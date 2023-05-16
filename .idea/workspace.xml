@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="重置密码功能实现，对前端页面进行完善，后端增强了验证">
-      <change afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/entity/user/AccountUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/interceptor/AuthorizeInterceptor.java" afterDir="false" />
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="用户基本信息功能实现，后端获得登录者的信息，未登录拦截">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/entity/auth/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/service/impl/AuthorizeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/stores/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/stores/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/IndexView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/views/IndexView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <workItem from="1684128362014" duration="21031000" />
       <workItem from="1684192250318" duration="5267000" />
       <workItem from="1684212046253" duration="2100000" />
-      <workItem from="1684221205012" duration="10793000" />
+      <workItem from="1684221205012" duration="14852000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
@@ -257,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684234958131</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="用户基本信息功能实现，后端获得登录者的信息，未登录拦截">
+      <created>1684239553154</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684239553154</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +293,8 @@
     <MESSAGE value="承firsterror" />
     <MESSAGE value="忘记密码页面设置" />
     <MESSAGE value="重置密码功能实现，对前端页面进行完善，后端增强了验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="重置密码功能实现，对前端页面进行完善，后端增强了验证" />
+    <MESSAGE value="用户基本信息功能实现，后端获得登录者的信息，未登录拦截" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户基本信息功能实现，后端获得登录者的信息，未登录拦截" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
