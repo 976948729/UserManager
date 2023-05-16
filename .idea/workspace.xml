@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="用户基本信息功能实现，后端获得登录者的信息，未登录拦截">
+    <list default="true" id="3a42419b-1406-4f04-91c9-e70f4cd77dff" name="变更" comment="基本页面跳转拦截-前端">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/stores/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/stores/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/views/IndexView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/views/IndexView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-backend/src/main/java/com/example/config/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/ForgetPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/ForgetPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/study-project-frontend/src/components/welcome/RegisterPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,7 @@
       <workItem from="1684128362014" duration="21031000" />
       <workItem from="1684192250318" duration="5267000" />
       <workItem from="1684212046253" duration="2100000" />
-      <workItem from="1684221205012" duration="14852000" />
+      <workItem from="1684221205012" duration="16219000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1683881279413</created>
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684239553154</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="基本页面跳转拦截-前端">
+      <created>1684243389072</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684243389072</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +299,8 @@
     <MESSAGE value="忘记密码页面设置" />
     <MESSAGE value="重置密码功能实现，对前端页面进行完善，后端增强了验证" />
     <MESSAGE value="用户基本信息功能实现，后端获得登录者的信息，未登录拦截" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户基本信息功能实现，后端获得登录者的信息，未登录拦截" />
+    <MESSAGE value="基本页面跳转拦截-前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本页面跳转拦截-前端" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
